@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital clock</title>
+    <link href="clock.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="background">
+        <!-- <div class="year"></div>
+        <div class="month"></div> -->
+        <div class="toggle">
+            <button class="button-74">date & time</button>
+        </div>
+        <div class="ghaddi" >
+            <button class="analog">analog</button>
+        </div>
+        <!-- --------------------clock and date area------------------ -->
+        <div class="clock_area">
+            <div class="relative">
+            <div class="clock invisi invisible">
+                <div class="hand hours " style="--clr:rgba(201, 178, 178, 0.66);"><i></i></div>
+                <div class="hand min" style="--min: rgb(176, 187, 176);"><i></i></div>
+                <div class="hand sec" style="--sec:rgb(255, 255, 255);"><i></i></div>
+
+                <span style="--i:1"><b>1</b></span>
+                <span style="--i:2"><b>2</b></span>
+                <span style="--i:3"><b>3</b></span>
+                <span style="--i:4"><b>4</b></span>
+                <span style="--i:5"><b>5</b></span>
+                <span style="--i:6"><b>6</b></span>
+                <span style="--i:7"><b>7</b></span>
+                <span style="--i:8"><b>8</b></span>
+                <span style="--i:9"><b>9</b></span>
+                <span style="--i:10"><b>10</b></span>
+                <span style="--i:11"><b>11</b></span>
+                <span style="--i:12"><b>12</b></span>
+                </div>
+                </div>
+
+         <div class="date_time">
+
+            <div class=" border  shadow gayab">
+
+                <!-- <div class="zero hidden gayab"></div> -->
+
+                <div class=" year hour hidden gayab"></div>
+                <!-- ------ -->
+            </div>
+
+            <div class="first large  hidden gayab">
+                <!-- <span>:</span> -->
+            </div>
+
+            <div class="border shadow gayab">
+
+                <div class=" month minutes hidden gayab"></div>
+                <!-- /--------------- -->
+                
+                <div class="second hidden gayab"></div>
+
+            </div>
+            <div class="third large hidden gayab">
+                <!-- <span class="invisible">:</span> -->
+            </div>
+
+            <div class="border shadow gayab">
+
+                
+                <div class=" days seconds hidden gayab"></div>
+                <!-- ---------- -->
+                
+                <div class="forth hidden gayab"></div>
+
+            </div>
+            <div class="fifth hidden gayab"></div>
+        </div>
+        </div>
+
+        <!-- ---------------------analog clock area----------------  -->
+
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js" charset="UTF-8"></script>
+
+</body>
+
+</html>
