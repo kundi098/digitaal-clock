@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+    height: 100vh;
+    /* width: 100vh; */
+    background-color: black;
+}
+.clock_area{
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.toggle{
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    top: 32%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+} 
+.border
+{
+    border: 2px solid white;
+    padding: 39px;
+    margin-left: 20px;
+    font-size: 5rem;
+    color: white;
+    display: flex;
+    border-radius : 115px;
+}
+.hide{
+    visibility: hidden;
+}
+.colon{
+    font-size: 5rem;
+}
+.shadow{box-shadow: rgba(235, 235, 240, 0.25) 0px 30px 60px -12px inset, rgba(243, 239, 239, 0.3) 0px 18px 36px -18px inset;}
+.year{}
+.month{}
+.days{}
+
+
+
+
+
+
+.button-74{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    box-shadow: #393838 4px 4px 0 0;
+    color: #3a3a3b;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.button-74:hover {
+    background-color: #fff;
+}
+
+.button-74:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+.gayab_hoja{
+    visibility: hidden;
+} 
+
+.relative{
+    position: relative;
+    /* margin-left: 20%; */
+}
+.clock{
+    color: white;
+    font-family: sans-serif;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: -1px 3px 75px 0px rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock span{
+    position: absolute;
+    transform: rotate(calc(30deg * var(--i)));
+    inset: 12px;
+    text-align: center;
+    font-size: 18pt;
+}
+.clock span b{
+    transform: rotate(calc(-30deg * var(--i)));
+    display: inline-block;
+}
+.clock::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+.hand{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.hours i{
+        position: absolute;
+        width: 5px;
+        height: 90px;
+        background-color: var(--clr);
+        
+    
+}
+.min i {
+        position: absolute;
+        width: 3px;
+        height: 100px;
+        background-color: var(--min);
+        
+    
+}
+.sec i{
+    position: absolute;
+    width: 1px;
+    height: 120px;
+    background-color: var(--sec);
+    
+}
+
+.ghaddi{
+    position: absolute;
+    top: 32%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+}
+
+.invisible{
+    visibility: hidden;
+}
+.date_time{
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.ampm{
+    font-size:45pt;
+    margin-left: 22px;
+}
+/* .sec{
+    width: 2px;
+    height: 150px;
+} */
+@media (min-width: 768px) {
+ .button-74 {
+   min-width: 120px;
+   padding: 0 25px;
+ }
+} 
+@media(min-width: 1800px){
+    .button-74{
+        
+    }
+}
+
+.analog{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    box-shadow: #393838 4px 4px 0 0;
+    color: #3a3a3b;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.analog:hover {
+    background-color: #fff;
+}
+
+.analog:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+.invis{
+    visibility: hidden;
+}
